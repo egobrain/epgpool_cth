@@ -1,0 +1,18 @@
+%% -*- erlang -*-
+
+{application, epgpool_cth, [
+    {description, "Erlang epgpool common test helper"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lager,
+        erlexec
+    ]},
+    {env, []},
+
+    {maintainers, ["Yakov Kozlov"]},
+    {licenses, ["MIT"]},
+    {links, [{"Github", "https://github.com/egobrain/epgpool_cth"}]}
+]}.
